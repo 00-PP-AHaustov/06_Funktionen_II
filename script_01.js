@@ -22,7 +22,7 @@ function input() {
     b = Number(prompt("Zweite Zahl:"));
   } while (isNaN(b));
   do {
-    c = prompt("Bitte wählen: add,sub,mul,div");
+    c = prompt("Bitte wählen: add, sub, mul, div");
   } while (c != "add" && c != "sub" && c != "mul" && c != "div");
 }
 function addition(num1, num2) {
